@@ -1,8 +1,8 @@
 from __future__ import print_function
-# import shapefile
+
 import shapely
 import fiona
-# import pprint
+
 
 
 from shapely.geometry import Point, asShape
@@ -49,24 +49,3 @@ def get_district(lon, lat, shp):
 print(get_district(-81.7196, 33.5604, c))
 print(get_district(-97.0383, 32.5486, c))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-##filename2 = '/home/paul/projects_code/youlobby/tiger_line/tl_2016_us_cd115.shp'
-
-
-##c2 = fiona.open(filename)
-
-##shapely.geometry.asShape(c2[1]['geometry']).contains(Point(-77.16, 39))
-
-##c2[1]['properties']
