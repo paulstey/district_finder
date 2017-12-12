@@ -1,11 +1,12 @@
 from __future__ import print_function
 
 import shapely
-import fiona
-
-
+import fiona   # do we need this???
 
 from shapely.geometry import Point, asShape
+
+
+
 
 filename = '../cb_2015_us_cd114_500k.shp'
 # with fiona.open(filename) as src:
